@@ -6,7 +6,7 @@ import { SignInScreen } from '../../screens/SignInScreen';
 
 const { Navigator, Screen } = createNativeStackNavigator();
 
-export function AppStackRoutes() {
+export function AppRoutes() {
   // const theme = useTheme()
   return (
     <Navigator

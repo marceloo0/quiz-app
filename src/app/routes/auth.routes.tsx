@@ -9,7 +9,7 @@ import { ResultScreen } from '../../screens/ResultScreen';
 
 const { Navigator, Screen } = createNativeStackNavigator();
 
-export function AppStackRoutes() {
+export function AuthRoutes() {
   // const theme = useTheme()
   return (
     <Navigator
