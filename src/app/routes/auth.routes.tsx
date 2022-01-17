@@ -1,9 +1,11 @@
 import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-// import { useTheme } from 'styled-components'
+// import { useTheme } from 'styled-components';
 
-// import { SignIn } from '../screens/SignIn';
-// import { ForgotPassword } from '../screens/ForgotPassword';
+import { HomeScreen } from '../screens/HomeScreen';
+import { CongratulationScreen } from '../screens/CongratulationScreen';
+import { QuestionsScreen } from '../screens/QuestionsScreen';
+import { ResultScreen } from '../screens/ResultScreen';
 
 const { Navigator, Screen } = createNativeStackNavigator();
 
@@ -13,17 +15,13 @@ export function AppStackRoutes() {
     <Navigator
       screenOptions={{
         headerShown: false,
-        // cardStyle: { backgroundColor: theme.colors.background_primary},
+        // cardStyle: { backgroundColor: theme.colors.background_primary },
       }}
     >
-      {/* <Screen
-        name="SignIn"
-        component={SignIn}
-      />
-      <Screen
-        name="ForgotPassword"
-        component={ForgotPassword}
-      /> */}
+      <Screen name="HomeScreen" component={HomeScreen} />
+      <Screen name="CongratulationScreen" component={CongratulationScreen} />
+      <Screen name="QuestionsScreen" component={QuestionsScreen} />
+      <Screen name="ResultScreen" component={ResultScreen} />
     </Navigator>
   );
 }
