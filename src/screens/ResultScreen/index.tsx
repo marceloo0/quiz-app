@@ -4,7 +4,7 @@ import { useTheme } from 'styled-components';
 
 import * as S from './styles';
 
-export function CongratulationScreen() {
+export function ResultScreen() {
   const theme = useTheme();
   // const { isLoading, getWorkTime } = useWorkTime()
 
