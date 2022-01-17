@@ -2,7 +2,7 @@ import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 // import { useTheme } from 'styled-components'
 
-import { SignInScreen } from '../screens/SignInScreen';
+import { SignInScreen } from '../../screens/SignInScreen';
 
 const { Navigator, Screen } = createNativeStackNavigator();
 
