@@ -5,7 +5,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 
 import * as S from './styles';
 
-export function AccessScreen() {
+export function SignInScreen() {
   const theme = useTheme();
   // const { isLoading, getWorkTime } = useWorkTime()
 
